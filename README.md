@@ -6,13 +6,6 @@ Bienvenido a mi repositorio de proyectos de React. Aquí iré subiendo diferente
 
 Este repositorio contiene las carpetas de cada uno de los proyectos.
 
-## Cómo Clonar el Repositorio
-
-Puedes clonar este repositorio en tu máquina local utilizando el siguiente comando:
-
-```bash
-git clone https://github.com/tu-usuario/tu-repositorio.git
-
 ## Requisitos
 
 Asegúrate de tener Node.js instalado en tu sistema para poder ejecutar los proyectos. También necesitarás Yarn para manejar las dependencias.
@@ -32,3 +25,10 @@ Si deseas contribuir a este repositorio, siéntete libre de enviar un pull reque
 
 ## Licencia
 Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.
+
+## Cómo Clonar el Repositorio
+
+Puedes clonar este repositorio en tu máquina local utilizando el siguiente comando:
+
+```bash
+git clone https://github.com/tu-usuario/tu-repositorio.git
