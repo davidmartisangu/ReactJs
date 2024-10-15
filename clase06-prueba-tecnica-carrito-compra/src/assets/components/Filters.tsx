@@ -1,30 +1,29 @@
-import { useState } from "react"
+import { useId, useState } from "react"
 import "./Filters.css"
 import {products} from "../../mocks/products.json"
-
-interface FiltersProps {
-    onChange: React.Dispatch<React.SetStateAction<{ minPrice: number; category: string }>>
-  }
+import { useFilters } from "../../hooks/useFilters"
 
 const allCategories = products.map(product=>product.category)
 
 const uniqueCategory = Array.from(new Set(allCategories))
 
-export function Filters ({onChange}:FiltersProps) {
+export function Filters () {
+    const{filters, setFilters} = useFilters()
     const [minPrice, setMinPrice] = useState(0)
     const [category, setCategory] = useState("all")
 
+    const minPriceFilterId = useId()
+    const categoryFilterId = useId()
+
     const handleChangeMinPrice = (event: React.ChangeEvent<HTMLInputElement>)=>{
-        setMinPrice(Number(event.target.value))  // convertir el valor a número
-        onChange(prevState =>({
+        setFilters(prevState =>({
             ...prevState,
             minPrice: Number(event.target.value)     // convertir el valor a número
         }))
     }
 
     const handleChangeCategory = (event: React.ChangeEvent<HTMLSelectElement>)=>{
-        setCategory(event.target.value)
-        onChange(prevState =>({
+        setFilters(prevState =>({
             ...prevState,
             category: event.target.value
         }))
@@ -36,16 +35,16 @@ export function Filters ({onChange}:FiltersProps) {
                 <label htmlFor="price">Price</label>
                 <input
                     type="range"
-                    id="price"
+                    id={minPriceFilterId}
                     min="0"
                     max="1000"
                     onChange={handleChangeMinPrice}
-                    value={minPrice}/>
-                <span>{minPrice}</span>
+                    value={filters.minPrice}/>
+                <span>{filters.minPrice}</span>
             </div>
             <div>
                 <label htmlFor="category">Category</label>
-                <select id="category" onChange={handleChangeCategory}>
+                <select id={categoryFilterId} onChange={handleChangeCategory}>
                     <option value="all">All</option>
                     {uniqueCategory.map(categoria =>(
                         <option key={categoria} value={categoria}>{categoria}</option>
