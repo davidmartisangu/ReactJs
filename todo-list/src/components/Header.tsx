@@ -1,4 +1,5 @@
 import { TodoTitle } from "../types"
+import { CreateTodo } from "./CreateTodo"
 
 interface Props {
     onAddTodo:({title}:TodoTitle)=>void
