@@ -1,50 +1,83 @@
-# React + TypeScript + Vite
+# React + TypeScript + Redux Toolkit
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto desarrollado con React, TypeScript, y Redux Toolkit que permite gestionar usuarios mediante una tabla interactiva. Los usuarios se pueden listar, crear, actualizar y eliminar. Este proyecto está diseñado como una herramienta de aprendizaje y gestión básica de datos con un enfoque en las mejores prácticas de desarrollo web.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Listado de usuarios: Muestra una tabla interactiva con la lista de usuarios.
 
-## Expanding the ESLint configuration
+Agregar usuario: Formulario para crear un nuevo usuario, con generación automática de ID consecutivo.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Editar usuario: Permite modificar la información de un usuario existente.
 
-- Configure the top-level `parserOptions` property like this:
+Eliminar usuario: Elimina un usuario de la lista.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Persistencia de estado: Gestión del estado global mediante Redux Toolkit.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Tecnologías utilizadas
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+React: Biblioteca para construir la interfaz de usuario.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+TypeScript: Superset de JavaScript que añade tipado estático.
+
+Redux Toolkit: Herramienta para la gestión global del estado.
+
+Vite: Herramienta rápida para el desarrollo y construcción del proyecto.
+
+## Requisitos previos
+
+Asegúrate de tener instalados los siguientes programas:
+
+Node.js: Descargar Node.js
+
+npm o yarn: Gestor de paquetes para instalar las dependencias.
+
+## Instalación y ejecución
+
+1. Clona este repositorio:
+
+git clone https://github.com/tu-usuario/tu-repositorio.git
+cd tu-repositorio
+
+2. Instala las dependencias:
+
+Usando npm:
+
+npm install
+
+O usando yarn:
+
+yarn install
+
+3. Inicia el proyecto:
+
+Usando npm:
+
+npm run dev
+
+O usando yarn:
+
+yarn dev
+
+4. Abre el navegador:
+
+Ve a http://localhost:5173 para ver la aplicación.
+
+## Estructura del proyecto
+
+src/
+├── components/        # Componentes reutilizables (tabla, formularios, etc.)
+├── features/          # Redux slices y lógica de estado
+├── hooks/             # Custom hooks
+├── pages/             # Páginas principales de la aplicación
+├── App.tsx            # Punto de entrada principal
+└── main.tsx           # Archivo principal de arranque
+
+
+## Contribución
+
+¡Las contribuciones son bienvenidas! Si quieres mejorar este proyecto, realiza un fork del repositorio, crea una rama con tus cambios y abre un pull request.
+
+## Licencia
+
+Este proyecto está licenciado bajo la MIT License.
