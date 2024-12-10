@@ -11,11 +11,19 @@ import {
 } from '@tremor/react'
 import { useAppSelector } from '../hooks/store'
 import { useUserActions } from '../hooks/useUserActions'
+import { useState } from 'react'
+import { EditNewUser } from './EditUser'
 
 export function ListOfUsers(){
     const users = useAppSelector((state)=>state.users)
 
     const {removeUser} = useUserActions()
+
+    const [editingUser, setEditingUser] = useState<string | null>(null)
+
+    const handleEditComplete = ()=>{
+        setEditingUser(null) // Ocultar el formulario de edición
+    }
 
     return (
         <Card>
@@ -48,7 +56,7 @@ export function ListOfUsers(){
                                 {item.name}</TableCell>
                             <TableCell>{item.email}</TableCell>
                             <TableCell>
-                                <button>
+                                <button onClick={()=>setEditingUser(item.id)} type="button">
                                     <svg
                                         xmlns='http://www.w3.org/2000/svg'
                                         fill='none'
@@ -86,6 +94,8 @@ export function ListOfUsers(){
                     ))}
                 </TableBody>
             </Table>
+
+            {editingUser && (<EditNewUser id={editingUser} onEditComplete={handleEditComplete}/>)}
         </Card>
   )
 }
