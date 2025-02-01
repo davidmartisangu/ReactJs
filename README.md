@@ -1,3 +1,5 @@
+![React imagen](react_img.png)
+
 # Proyectos de React
 
 Bienvenido a mi repositorio de proyectos de React. Aquí iré subiendo diferentes proyectos en los que estoy trabajando mientras estudio React y desarrollo mis habilidades en esta biblioteca de JavaScript.
