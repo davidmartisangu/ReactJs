@@ -2,7 +2,7 @@
 
 ## Link App
 
-(https://67c42ffcd316d737d018e24e--jazzy-heliotrope-b80f50.netlify.app/)
+https://67c42ffcd316d737d018e24e--jazzy-heliotrope-b80f50.netlify.app/
 
 ## 📂Descripción
 
