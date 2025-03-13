@@ -1,7 +1,5 @@
 # Buscador de Clima
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR_BADGE_ID/deploy-status)](https://meek-crisp-14b1ec.netlify.app/)
-
 Aplicación web para consultar el clima en diferentes ciudades del mundo utilizando la API de OpenWeatherMap.
 
 ## 🌍 Demo en vivo
@@ -53,9 +51,7 @@ Este proyecto está bajo la licencia MIT.
 
 # Weather Search App
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR_BADGE_ID/deploy-status)](https://meek-crisp-14b1ec.netlify.app/)
-
-A web application to check the weather in different cities around the world using the OpenWeatherMap API.
+Web application to check the weather in different cities around the world using the OpenWeatherMap API.
 
 ## 🌍 Live Demo
 
