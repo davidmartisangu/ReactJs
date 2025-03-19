@@ -1,100 +1,98 @@
-# Buscador de Clima
+# Crypto Ticker
 
-Aplicación web para consultar el clima en diferentes ciudades del mundo utilizando la API de OpenWeatherMap.
+## 🌎 Live Demo
 
-## 🌍 Demo en vivo
+🔗 **[Visit the deployed site](https://resplendent-torte-c457d9.netlify.app/)**
 
-Puedes acceder a la aplicación en el siguiente enlace:  
-🔗 [Buscador de Clima](https://meek-crisp-14b1ec.netlify.app/)
+## 📜 Description
 
-## 🚀 Características
-- Búsqueda de clima por ciudad y país.
-- Consulta de temperatura máxima, mínima y actual.
-- Interfaz simple y amigable.
-- Implementado con React, TypeScript y Vite.
-
-## 🛠 Tecnologías utilizadas
-- React con TypeScript
-- Vite
-- CSS Módulos
-- API de OpenWeatherMap
-- Netlify para el despliegue
-
-## 📦 Instalación y uso
-
-1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/davidmartisangu/clima-tiempo-actual.git
-   ```
-2. Acceder al directorio del proyecto:
-   ```bash
-   cd clima-tiempo-actual
-   ```
-3. Instalar las dependencias:
-   ```bash
-   npm install
-   ```
-4. Crear un archivo `.env.local` con la siguiente variable de entorno:
-   ```env
-   VITE_API_KEY=TU_CLAVE_DE_API
-   ```
-5. Ejecutar la aplicación en modo desarrollo:
-   ```bash
-   npm run dev
-   ```
-6. Abrir el navegador y visitar `http://localhost:5173/`
-
-## 📄 Licencia
-Este proyecto está bajo la licencia MIT.
-
----
-
-# Weather Search App
-
-Web application to check the weather in different cities around the world using the OpenWeatherMap API.
-
-## 🌍 Live Demo
-
-You can access the application at the following link:  
-🔗 [Weather Search App](https://meek-crisp-14b1ec.netlify.app/)
+Crypto Ticker is a real-time cryptocurrency price ticker that displays market trends and changes in price. The project is built using React, TypeScript, Zustand for state management, and the CryptoCompare API for data fetching.
 
 ## 🚀 Features
-- Search for weather by city and country.
-- Displays current, maximum, and minimum temperatures.
-- Simple and user-friendly interface.
-- Built with React, TypeScript, and Vite.
+
+- Live cryptocurrency price updates
+- Displays name, price, and 24-hour percentage change
+- Smooth horizontal scrolling animation
+- State management using Zustand
+- Fully responsive design
 
 ## 🛠 Technologies Used
-- React with TypeScript
-- Vite
-- CSS Modules
-- OpenWeatherMap API
-- Netlify for deployment
 
-## 📦 Installation and Usage
+- React
+- TypeScript
+- Zustand
+- Axios
+- CryptoCompare API
+- CSS Animations
+
+## 📦 Installation & Setup
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/davidmartisangu/clima-tiempo-actual.git
+   git clone https://github.com/davidmartisangu/ReactJs/cripto-react-typescript.git
+   cd crypto-ticker
    ```
-2. Navigate to the project directory:
-   ```bash
-   cd clima-tiempo-actual
-   ```
-3. Install dependencies:
+2. Install dependencies:
    ```bash
    npm install
    ```
-4. Create a `.env.local` file with the following environment variable:
-   ```env
-   VITE_API_KEY=YOUR_API_KEY
-   ```
-5. Run the application in development mode:
+3. Start the development server:
    ```bash
    npm run dev
    ```
-6. Open the browser and visit `http://localhost:5173/`
+4. Open `http://localhost:5173/` in your browser.
 
-## 📄 License
+## 📜 License
+
 This project is licensed under the MIT License.
+
+---
+
+# Crypto Ticker (Español)
+
+## 🌎 Demo en Vivo
+
+🔗 **[Visita el sitio](https://resplendent-torte-c457d9.netlify.app/)**
+
+## 📜 Descripción
+
+Crypto Ticker es un ticker de precios de criptomonedas en tiempo real que muestra las tendencias del mercado y los cambios de precio. El proyecto está desarrollado con React, TypeScript, Zustand para la gestión de estado y la API de CryptoCompare para obtener datos en vivo.
+
+## 🚀 Características
+
+- Actualización en vivo de precios de criptomonedas
+- Muestra el nombre, el precio y el cambio porcentual en 24 horas
+- Animación de desplazamiento horizontal suave
+- Gestión de estado con Zustand
+- Diseño completamente responsivo
+
+## 🛠 Tecnologías Utilizadas
+
+- React
+- TypeScript
+- Zustand
+- Axios
+- API de CryptoCompare
+- Animaciones CSS
+
+## 📦 Instalación & Configuración
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/davidmartisangu/ReactJs/cripto-react-typescript.git
+   cd crypto-ticker
+   ```
+2. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+3. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
+4. Abre `http://localhost:5173/` en tu navegador.
+
+## 📜 Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT.
 
