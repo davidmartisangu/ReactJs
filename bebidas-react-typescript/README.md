@@ -4,7 +4,7 @@ Este es un proyecto desarrollado en **React** con **TypeScript**, utilizando **Z
 
 ## 🚀 Demo en Vivo
 
-Puedes ver el proyecto en: [Shiny Sunshine](https://astonishing-mermaid-1da2ad.netlify.app/generate)
+Puedes ver el proyecto en: [Shiny Sunshine](https://astonishing-mermaid-1da2ad.netlify.app/)
 
 ## 📂 Repositorio
 
@@ -62,7 +62,7 @@ This is a project developed in **React** with **TypeScript**, using **Zustand** 
 
 ## 🚀 Live Demo
 
-You can see the project in action here: [Shiny Sunshine](https://astonishing-mermaid-1da2ad.netlify.app/generate)
+You can see the project in action here: [Shiny Sunshine](https://astonishing-mermaid-1da2ad.netlify.app/)
 
 ## 📂 Repository
 
