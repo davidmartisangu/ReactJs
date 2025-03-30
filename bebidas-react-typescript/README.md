@@ -4,7 +4,7 @@ Este es un proyecto desarrollado en **React** con **TypeScript**, utilizando **Z
 
 ## 🚀 Demo en Vivo
 
-Puedes ver el proyecto en: [Shiny Sunshine](https://https://warm-cobbler-b36f38.netlify.app//)
+Puedes ver el proyecto en: [Shiny Sunshine](https://warm-cobbler-b36f38.netlify.app/)
 
 ## 📂 Repositorio
 
