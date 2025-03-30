@@ -1,10 +1,10 @@
 # Proyecto de Recetas en React
 
-Este es un proyecto desarrollado en **React** con **TypeScript**, utilizando **Zustand** para la gestión del estado global. Permite buscar recetas de bebidas, agregarlas a favoritos y almacenarlas en localStorage.
+Este es un proyecto desarrollado en **React** con **TypeScript**, utilizando **Zustand** para la gestión del estado global. Permite buscar recetas de bebidas, agregarlas a favoritos y almacenarlas en localStorage. Además, se ha integrado una funcionalidad de inteligencia artificial que mejora la búsqueda de recetas al sugerir resultados más relevantes basados en los ingredientes proporcionados.
 
 ## 🚀 Demo en Vivo
 
-Puedes ver el proyecto en: [Shiny Sunshine](https://shiny-sunshine-028e74.netlify.app/)
+Puedes ver el proyecto en: [Shiny Sunshine](https://https://warm-cobbler-b36f38.netlify.app//)
 
 ## 📂 Repositorio
 
@@ -18,6 +18,7 @@ El código fuente está disponible en GitHub: [Repositorio](https://github.com/d
 - Tailwind CSS para estilos
 - LocalStorage para persistencia de datos
 - Vite como herramienta de compilación
+- Inteligencia Artificial para mejorar las recomendaciones de recetas
 
 ## 📌 Características
 
@@ -26,6 +27,7 @@ El código fuente está disponible en GitHub: [Repositorio](https://github.com/d
 ✅ Persistencia de favoritos en localStorage
 ✅ Diseño responsivo
 ✅ Optimización de rendimiento con **React.lazy** y **Suspense**
+✅ Sugerencias personalizadas basadas en los ingredientes proporcionados, gracias a la integración de IA.
 
 ## 🚀 Instalación y Uso
 
@@ -56,11 +58,11 @@ Este proyecto está licenciado bajo la licencia **MIT**.
 
 # Recipe Project in React
 
-This is a project developed in **React** with **TypeScript**, using **Zustand** for global state management. It allows searching for drink recipes, adding them to favorites, and storing them in localStorage.
+This is a project developed in **React** with **TypeScript**, using **Zustand** for global state management. It allows searching for drink recipes, adding them to favorites, and storing them in localStorage. Additionally, a machine learning feature has been integrated to enhance the recipe search by suggesting more relevant results based on the ingredients provided.
 
 ## 🚀 Live Demo
 
-You can see the project in action here: [Shiny Sunshine](https://shiny-sunshine-028e74.netlify.app/)
+You can see the project in action here: [Shiny Sunshine](https://https://warm-cobbler-b36f38.netlify.app//)
 
 ## 📂 Repository
 
@@ -74,6 +76,7 @@ The source code is available on GitHub: [Repository](https://github.com/davidmar
 - Tailwind CSS for styling
 - LocalStorage for data persistence
 - Vite as the build tool
+- Artificial Intelligence to improve recipe recommendations
 
 ## 📌 Features
 
@@ -82,6 +85,7 @@ The source code is available on GitHub: [Repository](https://github.com/davidmar
 ✅ Persist favorites in localStorage
 ✅ Responsive design
 ✅ Performance optimization with **React.lazy** and **Suspense**
+✅ Personalized recipe suggestions based on ingredients, powered by AI.
 
 ## 🚀 Installation and Usage
 
