@@ -111,7 +111,7 @@ components:
 ```
 
 ## 6. PostgreSQL Connection
-You mentioned that your previous **Render** PostgreSQL database connection expired.
+Connected to **Render** PostgreSQL mitht be database connection has expired.
 
 ## 7. Testing
 You are using **Jest** for unit testing.
