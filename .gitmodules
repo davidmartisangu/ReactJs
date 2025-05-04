@@ -1,0 +1,6 @@
+[submodule "10.1_fullstack_node_react_typescript/09_server"]
+	path = 10.1_fullstack_node_react_typescript/09_server
+	url = git@github.com:davidmartisangu/backend_rest_apis_typescript.git
+[submodule "10.1_fullstack_node_react_typescript/10_client"]
+	path = 10.1_fullstack_node_react_typescript/10_client
+	url = git@github.com:davidmartisangu/frontend_rest_apis_typescript.git
