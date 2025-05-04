@@ -2,6 +2,8 @@
 
 Este es un proyecto **Full Stack** desarrollado con el stack **PERN** (PostgreSQL, Express, React y Node.js). Permite administrar productos mediante una REST API conectada a una base de datos PostgreSQL, y un frontend interactivo construido con React.
 
+🌐 Despliegue
+URL: https://frontend-rest-apis-typescript.vercel.app/
 ---
 
 ## 🚀 Tecnologías utilizadas
@@ -91,10 +93,6 @@ cd client
 npm run dev
 ```
 5. Abre http://localhost:5173 en tu navegador.
-
-🌐 Despliegue
-URL: https://frontend-rest-apis-typescript.vercel.app/
-
 
 ## ✅ Estado del Proyecto
 - ✔️ Proyecto completo y funcional
