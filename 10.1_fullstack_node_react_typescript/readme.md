@@ -96,12 +96,12 @@ npm run dev
 URL: https://frontend-rest-apis-typescript.vercel.app/
 
 
-✅ Estado del Proyecto
-✔️ Proyecto completo y funcional
-✔️ Backend conectado a base de datos PostgreSQL real
-✔️ Frontend interactivo y responsive
-✔️ Desplegado en servicios gratuitos (Vercel + Render)
+## ✅ Estado del Proyecto
+- ✔️ Proyecto completo y funcional
+- ✔️ Backend conectado a base de datos PostgreSQL real
+- ✔️ Frontend interactivo y responsive
+- ✔️ Desplegado en servicios gratuitos (Vercel + Render)
 
-📄 Licencia
+## 📄 Licencia
 Este proyecto está bajo la licencia MIT.
 ¡Siéntete libre de usarlo, modificarlo y aprender de él!
